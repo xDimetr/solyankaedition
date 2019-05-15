@@ -1,0 +1,600 @@
+﻿/*//META{"name":"DISCORD Solyanka Edition","description":"","author":"Dimetr","version":"0.2 (Closed alpha release)"}*//**/
+
+
+.appMount-3lHmkl{
+	background-color: rgba(1, 1, 1, 0.1) !important;
+	background-image: url(https://cdn.discordapp.com/attachments/400266540567494666/576707290699137024/909912.png) !important;
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+
+.channels-Ie2l6A{
+	//background-color: rgba(0, 0, 0, 0) !important;
+	background: linear-gradient(to left, transparent, rgba(114,118,125,.3) 0%, transparent) !important;
+}
+.container-PNkimc{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.container-1UB9sr{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark .container-1UB9sr, .theme-light .container-1UB9sr{
+	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, transparent, rgba(114, 137, 218,.3) 250%, transparent) !important;
+}
+.theme-dark .container-2Thooq, .theme-light .container-2Thooq{
+	//background-color: rgba(0, 0, 0, 0) !important;
+	background: linear-gradient(to right, transparent, rgba(114,118,125,.9) 0%, transparent, rgba(114,118,125,.9) 250%, transparent) !important;
+	//background: linear-gradient(to left, transparent, rgba(114, 137, 218,.3) 0%, transparent) !important;
+	//background: inherit;
+	
+}
+
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .container-1r6BKw{
+	//background: linear-gradient(rgba(114,118,125,.1) 0%, rgba(114,118,125,.3) 50%) !important;
+	background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent) !important;
+	//background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .searchBar-3dMhjb{
+	background-color: rgba(114,118,125,.3) !important;
+}
+
+.darkTheme-3uETC4.container-2XeR5Z{
+	background-color: rgba(114,118,125,.3) !important;
+}
+
+
+.theme-dark .messagesWrapper-3lZDfY{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.membersWrap-2h-GB4{
+	//background-image: linear-gradient(rgba(54, 57, 62, 1) 0%), url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png);
+	background-image: url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png), linear-gradient(to right, rgba(33, 35, 38, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+	//background: linear-gradient(to right, rgba(54, 57, 62, 1) 0%, rgba(0, 0, 0, 1) 10%) !important;
+}
+.theme-dark .members-1998pB{
+	background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent) !important;
+	//background-color: rgba(0, 0, 0, 0) !important;
+}
+.container-2lgZY8{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .layer-3QrUeG, .theme-dark .layers-3iHuyZ{
+	background-color: rgba(0, 0, 0, 0) !important;
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+.theme-dark .header-ykumBX{
+	background-color: rgba(114, 137, 218,1);
+}
+
+
+
+
+/*
+ *
+ *	ГЛАВНАЯ СТРАНИЦА
+ *
+ */
+.channel-2QD9_O:hover{
+	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, transparent) !important;
+}
+.channel-2QD9_O:hover a{
+	background: rgba(0, 0, 0, 0) !important;
+}
+.channel-2QD9_O a{
+	color: rgba(255, 255, 255, 1) !important;
+}
+.channel-2QD9_O .linkButtonIcon-Mlm5d6{
+	color: rgba(255, 255, 255, 1) !important;
+}
+.channel-2QD9_O.selected-1HYmZZ a{
+	background: linear-gradient(to right, transparent, rgba(114,118,125,.9) 0%, transparent) !important;
+}
+
+/*
+ *
+ *	ПАНЕЛЬ ЗАГОЛОВКА
+ *
+ */
+.theme-dark .children-19S4PO:after{
+	background: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .icon-22AiRD{
+	color: rgba(255, 255, 255, 1) !important;
+}
+
+/*
+ *
+ *	ПАНЕЛЬ ПОЛЬЗОВАТЕЛЯ
+ *
+ */
+.layer-v9HyYc{
+//	left: 5px !important;
+//    bottom: 150.411px !important;
+}
+.tooltipPointer-3ZfirK{
+	//border: 0px !important;
+}
+.tooltip-2QfLtc{
+	padding: 3px !important;
+}
+
+.inner-btChU7 .rtc-connection-status .ping.status-_2Z-j-{
+	//width: 5px;
+    //height: 5px;
+	//background-size:5px;
+}
+
+/*
+ *
+ *	КАРТОЧКА ПОЛЬЗОВАТЕЛЯ
+ *
+ */
+//.theme-dark .headerNormal-T_seeN{
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
+	filter: blur(5px);
+}
+//.headerPlaying-j0WQBV{
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://ih1.redbubble.net/image.636925299.7416/flat,750x1000,075,t.jpg);
+	filter: blur(5px);
+}
+//.headerSpotify-zpWxgT{
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://lockpaperscissors.co/wp-content/uploads/spotify-theme-music-bkg-dark.png);
+	filter: blur(5px);
+}
+
+
+/*
+ *
+ *	SCROLLBARS
+ *
+ */
+
+.scroller-fzNley::-webkit-scrollbar-track {
+	border-radius: 0 !important;
+}
+
+.scroller-fzNley::-webkit-scrollbar-track,
+.channels-3g2vYe .scroller-fzNley::-webkit-scrollbar-track,
+.channel-members::-webkit-scrollbar-track,
+.root-2sNHUF::-webkit-scrollbar-track,
+.ui-standard-sidebar-view .sidebar-region .scroller-fzNley::-webkit-scrollbar-track,
+.ui-standard-sidebar-view .content-region .scroller-fzNley::-webkit-scrollbar-track {
+	background: transparent !important;
+}
+
+.menu-Sp6bN1:not(.alt-3btY0e)::-webkit-scrollbar-track {
+	background: #2c2f33 !important;
+}
+
+.body-3rkFrF::-webkit-scrollbar,
+.body-3ljq11::-webkit-scrollbar,
+.root-2sNHUF::-webkit-scrollbar,
+.menu-Sp6bN1:not(.alt-3btY0e)::-webkit-scrollbar,
+.textArea-2Spzkt::-webkit-scrollbar {
+	width: 7px !important;
+}
+
+.body-3rkFrF::-webkit-scrollbar-track,
+.body-3ljq11::-webkit-scrollbar-track,
+.menu-Sp6bN1:not(.alt-3btY0e)::-webkit-scrollbar-track,
+.textArea-2Spzkt::-webkit-scrollbar-track {
+	margin: 0 !important;
+}
+
+::-webkit-scrollbar {
+	position: absolute;
+	width: 7px !important;
+	background: transparent;
+}
+
+.scrollerWrap-2lJEkd.themeHidden-2yP93k::-webkit-scrollbar,
+.scrollerWrap-2lJEkd.themeHidden-2yP93k .scroller-2FKFPG::-webkit-scrollbar {
+	width: 0px !important;
+}
+
+::-webkit-scrollbar-track {
+	background: rgba(0,0,0,0) !important;
+}
+
+::-webkit-scrollbar-track-piece {
+	border: 0 solid transparent !important;
+	background-color: transparent !important;
+	margin: 0;
+}
+
+::-webkit-scrollbar-thumb {
+	display: initial;
+	background-color: rgba(114, 137, 218,0.3) !important;
+	border: 0 solid transparent !important;
+	border-radius: 0 !important;
+}
+
+::-webkit-scrollbar-thumb:hover {
+	background-color: rgba(114, 137, 218,0.7) !important;
+}
+
+::-webkit-scrollbar-thumb:active {
+	display: initial;
+	background-color: rgba(114, 137, 218,0.9) !important;
+}
+/*
+ *
+ *	END SCROLLBARS
+ *
+ */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
+ *
+ *	СПИСОК УЧАСТНИКОВ СЕРВЕРА
+ *
+ */
+.theme-dark .membersWrap-2h-GB4 .membersGroup-v9BXpm {
+    box-sizing: content-box;
+    height: 24px;
+    margin: 8px 0;
+    padding: 0 10px;
+    line-height: 24px;
+    border-radius: 16px;
+}
+
+.theme-dark .member-3W1lQa{
+	margin: 1px 0 1px 0px !important;
+}
+
+.theme-dark .membersWrap-2h-GB4 .member-3W1lQa {
+    //border-radius: 50px;
+}
+
+.theme-dark .membersWrap-2h-GB4 .member-3W1lQa:hover .content-OzHfo4 {
+    background: transparent;
+}
+
+.theme-dark .membersWrap-2h-GB4 .avatarWrapper-3B0ndJ {
+    z-index: 2;
+}
+
+.theme-dark .membersWrap-2h-GB4 .memberInner-2CPc3V {
+    z-index: 1;
+}
+
+.theme-dark .membersWrap-2h-GB4 .nameTag-3p0yK- {
+    position: relative;
+    overflow: visible;
+}
+
+.theme-dark .membersWrap-2h-GB4 .nameTag-3p0yK-:before {
+    content: "";
+    position: absolute;
+    background: linear-gradient(to right, transparent, currentColor 0%, currentColor 50%, transparent);
+    top: -40px;
+    left: -50px;
+    bottom: -40px;
+    right: 0px;
+    opacity: .2;
+    pointer-events: none;
+    //height: 15px;
+}
+
+.theme-dark .membersWrap-2h-GB4 .member-3W1lQa:hover .nameTag-3p0yK-:before {
+    opacity: .4;
+    transition: .4s;
+}
+
+.membersWrap-2h-GB4 .activityText-sLG0UL{
+    text-indent:-10vw;
+    line-height:0
+    
+}
+.membersWrap-2h-GB4 .activity-1IYsbk strong{
+    text-indent:0;
+    display:block;
+    line-height:12px
+    
+}
+
+
+/*
+ *
+ *	СПИСОК КАНАЛОВ СЕРВЕРА
+ *
+ */
+.theme-dark .membersWrap-2h-GB4 .membersGroup-v9BXpm{
+	text-align: center;
+}
+.theme-dark .icon-1_QxNX, .theme-light .icon-1_QxNX{
+	color: rgba(255, 255, 255, 1) !important;
+}
+.content-3at_AU.da-content{
+	//margin-top: 2px;
+	transition: .4s;
+	
+}
+.channels-Ie2l6A .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .channels-Ie2l6A .wrapper-1ucjTd:hover .content-3at_AU{
+	background-color: rgba(0, 0, 0, 0) !important;
+    background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, rgba(114, 137, 218,.2) 50%, transparent);
+	color: rgba(0, 0, 0, 1) !important;
+	margin-left:0px;
+	transition: .4s;
+}
+.list-2bwCXU{
+    background: linear-gradient(to left, transparent, rgba(114, 137, 218,.3) 0%, transparent) !important;
+	transition: .4s;
+}
+.list-2bwCXU:hover{
+	padding-left: 10px !important;
+	transition: .4s;
+}
+.theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh{
+	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, transparent) !important;
+	margin-left: 0px !important;
+	transition: .4s;
+}
+
+/*
+ *
+ *	ШАПКА СЕРВЕРА
+ *
+ */
+.hasDropdown-2invhV.container-2Rl01u, .hasDropdown-2invhV .header-2o-2hj{
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
+	height: 90px !important;
+}
+span.name-3YKhmS.da-name{
+	font-weight: 900;
+	text-align:center;
+}
+
+/*
+ *
+ *	ЧАТ
+ *
+ */
+
+ 
+ 
+.theme-dark .containerCozyBounded-1rKFAn{
+    //background: linear-gradient(to right, transparent, rgba(54, 58, 62, 0.5) 0%, transparent);
+	//background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent);
+	
+	//background: linear-gradient(to right, transparent, currentColor 0%, currentColor 250%, transparent);
+    margin: 10px 0px;
+    padding: 10px 0;
+}
+
+
+.spacer-1fA9zc{
+    //margin: 0;
+	//padding: 0;
+	//border: none !important;
+	//background-image: url(https://gallery.yopriceville.com/var/albums/Backgrounds/Spooky_Highway_Background.jpg?m=1445719147Q);
+	//background-repeat: no-repeat;
+    //background-size: cover;
+}
+.theme-dark .messagesWrapper-3lZDfY{
+   //background-color: rgba(54, 57, 63, 0) !important;
+}
+.theme-dark .chat-3bRxxu, .theme-dark .chat-3bRxxu form, .theme-dark .content-yTz4x3{
+    //background-color: rgba(54, 57, 63, 0) !important;
+}
+.edited-DL9ECl {
+	display: inline-block;
+	width: 14px;
+	height: 14px;
+	margin: 0 0 0 4px;
+	line-height: 24px;
+	background: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNCIgaGVpZ2h0PSIxNCIgdmlld0JveD0iMCAwIDI0IDI0Ij48cGF0aCBmaWxsPSJub25lIiBkPSJNMCAwaDI0djI0SDBWMHoiLz48cGF0aCBmaWxsPSIjODg4ODg4IiBkPSJNMTQuMDYgOS4wMmwuOTIuOTJMNS45MiAxOUg1di0uOTJsOS4wNi05LjA2TTE3LjY2IDNjLS4yNSAwLS41MS4xLS43LjI5bC0xLjgzIDEuODMgMy43NSAzLjc1IDEuODMtMS44M2MuMzktLjM5LjM5LTEuMDIgMC0xLjQxbC0yLjM0LTIuMzRjLS4yLS4yLS40NS0uMjktLjcxLS4yOXptLTMuNiAzLjE5TDMgMTcuMjVWMjFoMy43NUwxNy44MSA5Ljk0bC0zLjc1LTMuNzV6Ii8+PC9zdmc+) no-repeat;
+	font-size: 0;
+}
+.theme-dark .typing-2GQL18{
+	background-color: rgba(0, 0, 0, 0) !important;
+	//background: rgba(0, 0, 0, 0) !important;
+}
+
+.chat-3bRxxu form{
+	margin-left: 0px !important;
+    margin-right: 0px !important;
+	padding: 0px 20px;
+	//background-image: url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png), linear-gradient(to right, rgba(33, 35, 38, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+	//background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent);
+}
+.theme-dark .channelTextArea-rNsIhG{
+	border-top: 3px solid rgba(114,118,125,.3) !important;
+}
+.theme-dark .inner-zqa7da{
+	//background-color: rgba(114, 137, 218,.3);
+}
+
+.headerCozy-2N9HOL{
+	//padding: 5px 0px;
+}
+.theme-dark .timestampCozy-2hLAPV{
+	color: rgba(255, 255, 255, 1) !important;
+	background: rgba(114, 137, 218, 1) !important;
+	border-radius: 3px;
+	padding: 0 5px;
+	margin-left: 10px !important;
+	margin-right: 0px !important;
+	//right: 0px !important;
+}
+.image-33JSyf, .wrapper-2F3Zv8{
+	//border-radius: 10px;
+}
+
+
+
+.emoji.jumboable{
+	transition: .4s;
+}
+.emoji.jumboable:hover{
+	width: 3rem;
+    height: 3rem;
+	transition: .4s;
+}
+.emoji{
+	transition: .4s;
+}
+.emoji:hover{
+	width: 2rem;
+    height: 2rem;
+	transition: .4s;
+}
+
+/*
+ *
+ *	EMOJI ПАНЕЛЬ
+ *
+ 
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA{
+	transition: .4s;
+}
+.emojiPicker-3m1S-j .scroller-3vODG7 .emojiItem-109bjA:hover{
+	width: 50px;
+    height: 50px;
+	transition: .4s;
+	//z-index:9999;
+	//position: absolute;
+}
+ */
+ 
+ 
+ 
+
+ /*
+ *
+ *	GIF ПАНЕЛЬ
+ *
+ */
+ 
+.theme-dark .autocomplete-1vrmpx{
+	//background-color: rgba(114, 137, 218,0.6) !important;
+	background-image: url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
+	//background: linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, transparent, rgba(114, 137, 218,.3) 250%, transparent) !important;
+}
+.theme-dark .categoryFadeBlurple-1j72_A, .theme-light .categoryFadeBlurple-1j72_A{
+	background-color: rgba(0,0,0,.4);
+}
+.theme-dark .categoryFadeBlurple-1j72_A:hover, .theme-light .categoryFadeBlurple-1j72_A:hover{
+	background-color: rgba(0,0,0,.7);
+}
+
+
+/*
+ *
+ *	/ КОМАНДЫ
+ *
+ */
+.theme-dark .contentTitle-2tG_sM{
+	color: rgba(255, 255, 255, 1) !important;
+}
+.theme-dark .description-11DmNu, .theme-dark .descriptionUsername-J_75O8{
+	color: rgba(255, 255, 255, 1) !important;
+}
+.theme-dark .selectorSelected-1_M1WV:hover{
+	//background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent);
+	//background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, transparent) !important;
+}
+.icon-3ZzoN7{
+	//background: linear-gradient(to right, transparent, rgba(255, 255, 255,.9) 0%, transparent);
+
+	background: rgba(255, 255, 255, 1) !important;
+	border-radius: 3px;
+	
+}
+
+/*
+ *
+ *	ШРИФТ НИКА
+ *
+ */
+#app-mount .username-_4ZSMR,
+#app-mount .username-1cB_5E {
+    font-weight: 600;
+}
+
+
+
+/*
+ *
+ *	ТИТУЛЬНАЯ ПАНЕЛЬ
+ *
+ */
+
+.titleBar-AC4pGV {
+	height: 29px;
+	//box-shadow: 0 0 10px var(--lv1);
+	margin-top: 0;
+	background: rgba(114, 137, 218,.3);
+}
+
+.winButton-iRh8-Z {
+	height: 30px;
+	transition: 100ms ease background;
+	transform: scale(1.01);
+	width: 45px;
+	top: -1px;
+}
+
+.wordmark-2iDDfm {
+	margin-top: 3px;
+	margin-left: 2px;
+	
+}
+
+.bd-detached-editor .layers-3iHuyZ>.layer-3QrUeG {
+	margin-top: 0;
+}
+
+.wordmark-2iDDfm:after {
+	content: 'v0.3 (Closed alpha release)';
+	text-shadow: 0 0 12px;
+	font-weight: 400;
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+}
+
+.wordmark-2iDDfm:before {
+	content: 'DISCORD Solyanka by Dimetr ';
+	text-shadow: 0 0 12px;
+	font-weight: 600;
+	color: var(--accent);
+	color: rgba(255, 255, 255, 0.8);
+	font-size: 16px;
+	text-align: center;
+}
+
+.wordmark-2iDDfm svg {
+	display: none;
+}
+
+.winButtonClose-1HsbF-{
+	background: rgba(214, 99, 86, 1);
+}
+.winButtonMinMax-PBQ2gm{
+	background: rgba(243, 176, 51, 1);
+}
+.winButtonMinMax-PBQ2gm:hover{
+	background: rgba(243, 176, 51, 1);
+}
