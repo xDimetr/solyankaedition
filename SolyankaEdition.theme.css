@@ -586,11 +586,20 @@ span.name-3YKhmS.da-name{
 }
 
 .winButtonClose-1HsbF-{
+	background: rgba(214, 99, 86, .8);
+}
+.winButtonClose-1HsbF-:hover{
 	background: rgba(214, 99, 86, 1);
 }
 .winButtonMinMax-PBQ2gm{
-	background: rgba(243, 176, 51, 1);
+	background: rgba(243, 176, 51, .8);
 }
 .winButtonMinMax-PBQ2gm:hover{
 	background: rgba(243, 176, 51, 1);
 }
+
+/*
+ *
+ *	СТРАНИЦА НАСТРОЕК
+ *
+ */
