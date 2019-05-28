@@ -1,6 +1,7 @@
 .appMount-3lHmkl{
 	background-color: rgba(1, 1, 1, 0.1) !important;
-	background-image: url(https://cdn.discordapp.com/attachments/400266540567494666/576707290699137024/909912.png) !important;
+	//background-image: url(https://cdn.discordapp.com/attachments/400266540567494666/576707290699137024/909912.png) !important;
+	background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, .8) 0%), url(https://i.redd.it/y1ostvqnr4711.jpg);
 	background-repeat: no-repeat !important;
     background-size: cover !important;
 }
@@ -16,14 +17,12 @@
 	background-color: rgba(0, 0, 0, 0) !important;
 }
 
-.theme-dark .container-1UB9sr, .theme-light .container-1UB9sr{
-	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, transparent, rgba(114, 137, 218,.3) 250%, transparent) !important;
-}
 .theme-dark .container-2Thooq, .theme-light .container-2Thooq{
-	//background-color: rgba(0, 0, 0, 0) !important;
-	background: linear-gradient(to right, transparent, rgba(114,118,125,.9) 0%, transparent, rgba(114,118,125,.9) 250%, transparent) !important;
-	//background: linear-gradient(to left, transparent, rgba(114, 137, 218,.3) 0%, transparent) !important;
-	//background: inherit;
+
+	background-repeat: no-repeat !important;
+    background-size: cover !important;
+	background-position: center;
+	background-image: linear-gradient(to left, transparent, rgba(0, 0, 0, .2) 0%), url(https://www.dnnsoftware.com/Portals/0/Images/hero-background-4-3.jpg?ver=2017-08-17-190938-760) !important;
 	
 }
 
@@ -49,7 +48,7 @@
 }
 .membersWrap-2h-GB4{
 	//background-image: linear-gradient(rgba(54, 57, 62, 1) 0%), url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png);
-	background-image: url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png), linear-gradient(to right, rgba(33, 35, 38, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
+	//background-image: url(https://discordapp.com/assets/8eba753f8b6d02be1013c5e659b0fc2f.png), linear-gradient(to right, rgba(33, 35, 38, 1) 0%, rgba(0, 0, 0, 1) 100%) !important;
 	//background: linear-gradient(to right, rgba(54, 57, 62, 1) 0%, rgba(0, 0, 0, 1) 10%) !important;
 }
 .theme-dark .members-1998pB{
@@ -108,7 +107,46 @@
  *
  *	ПАНЕЛЬ ПОЛЬЗОВАТЕЛЯ
  *
- */
+
+.container-1UB9sr{
+	 display: block;
+ }
+.buttonInfo-3nkbOt{
+	// left: 70% !important;
+	width: 150px;
+	background-repeat: no-repeat !important;
+	background-size: contain !important;
+	background-position: center !important;
+	background: 
+	//linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent), 
+	url(/assets/9ff6ceb….svg) !important;
+ }
+.buttonDisconnect-3W_SJc{
+	 //right: -490% !important;
+	 width: 150px;
+	 background: 
+	 url(/assets/1ac9193….svg),
+	 linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent) !important;
+ } */
+
+.description-3ui3Rf:before {
+	content: 'Статус';
+	text-shadow: 0 0 12px;
+	//font-weight: 400;
+	//color: rgba(255, 255, 255, 0.8);
+	//font-size: 16px;
+}
+.description-3ui3Rf span {
+	display: none;
+}
+ 
+ 
+.theme-dark .container-1UB9sr, .theme-light .container-1UB9sr{
+	background-image: linear-gradient(to left, transparent, rgba(114, 137, 218, 0) 0%), url(https://cdn.discordapp.com/attachments/400266540567494666/582118563771318282/connection_png_313644.png);
+	background-repeat: no-repeat !important;
+    background-size: 200% !important;
+	//background: linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, transparent, rgba(114, 137, 218,.3) 250%, transparent) !important;
+}
 .layer-v9HyYc{
 //	left: 5px !important;
 //    bottom: 150.411px !important;
@@ -130,7 +168,7 @@
  *
  *	КАРТОЧКА ПОЛЬЗОВАТЕЛЯ
  *
- */
+ 
 //.theme-dark .headerNormal-T_seeN{
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
 	filter: blur(5px);
@@ -143,7 +181,7 @@
 	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://lockpaperscissors.co/wp-content/uploads/spotify-theme-music-bkg-dark.png);
 	filter: blur(5px);
 }
-
+ */
 
 /*
  *
@@ -173,7 +211,7 @@
 .root-2sNHUF::-webkit-scrollbar,
 .menu-Sp6bN1:not(.alt-3btY0e)::-webkit-scrollbar,
 .textArea-2Spzkt::-webkit-scrollbar {
-	width: 7px !important;
+	width: px !important;
 }
 
 .body-3rkFrF::-webkit-scrollbar-track,
@@ -185,7 +223,7 @@
 
 ::-webkit-scrollbar {
 	position: absolute;
-	width: 7px !important;
+	width: 5px !important;
 	background: transparent;
 }
 
@@ -332,13 +370,23 @@
 	margin-left:0px;
 	transition: .4s;
 }
+.channels-Ie2l6A .wrapper-1ucjTd.modeSelected-1zApJ_ .content-3at_AU, .channels-Ie2l6A .wrapper-1ucjTd:active .content-3at_AU{
+	background-color: rgba(0, 0, 0, 0) !important;
+    background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, rgba(114, 137, 218,.2) 50%, transparent);
+	color: rgba(0, 0, 0, 1) !important;
+	margin-left:0px;
+	transition: .4s;
+}
 .list-2bwCXU{
-    background: linear-gradient(to left, transparent, rgba(114, 137, 218,.3) 0%, transparent) !important;
+    background: linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 60%, transparent) !important;
 	transition: .4s;
 }
 .list-2bwCXU:hover{
-	padding-left: 10px !important;
+	padding-left: 25px !important;
 	transition: .4s;
+}
+.theme-dark .icon-3BcwQu, .theme-dark .username-lm8y6T, .theme-light .icon-3BcwQu, .theme-light .username-lm8y6T{
+	color: rgba(255, 255, 255, 1) !important;
 }
 .theme-dark .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh, .theme-light .listDefault-2y5Z9D .clickable-23RaYz:hover .content-3xS9Lh{
 	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, transparent) !important;
@@ -355,13 +403,19 @@
 	background-repeat: no-repeat;
     background-size: cover;
 	
-	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%), url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
-	height: 90px !important;
+	background-image: linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 200%), url(https://cdn.discordapp.com/attachments/400266540567494666/576716023731060780/-1.png);
+	//height: 90px !important;
 }
 span.name-3YKhmS.da-name{
 	font-weight: 900;
 	text-align:center;
 }
+
+
+.theme-dark .menu-Sp6bN1{
+	background: rgba(0,0,0,.9) !important;
+}
+
 
 /*
  *
@@ -372,6 +426,21 @@ span.name-3YKhmS.da-name{
  
  
 .theme-dark .containerCozyBounded-1rKFAn{
+	
+	background: linear-gradient(to right, transparent, rgba(114, 137, 218,.2) 50%, transparent) !important;
+	
+	
+	/*background: 
+		url(https://png.pngtree.com/element_our/md/20180524/md_5b06dec7a8ac8.png),
+		linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 50%, transparent);
+		
+		rgba(114, 137, 218,.4);	*/	
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: center right;
+	
+	
+	
     //background: linear-gradient(to right, transparent, rgba(54, 58, 62, 0.5) 0%, transparent);
 	//background: linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent);
 	
@@ -438,8 +507,12 @@ span.name-3YKhmS.da-name{
 .image-33JSyf, .wrapper-2F3Zv8{
 	//border-radius: 10px;
 }
+.base-gE7OpD{
+	left: 10px;
+}
 
 
+/*АНИМАЦИЯ ДЛЯ EMOJI
 
 .emoji.jumboable{
 	transition: .4s;
@@ -457,7 +530,8 @@ span.name-3YKhmS.da-name{
     height: 2rem;
 	transition: .4s;
 }
-
+ */
+ 
 /*
  *
  *	EMOJI ПАНЕЛЬ
@@ -537,13 +611,25 @@ span.name-3YKhmS.da-name{
  *	ТИТУЛЬНАЯ ПАНЕЛЬ
  *
  */
+ 
 
 .titleBar-AC4pGV {
 	height: 29px;
 	//box-shadow: 0 0 10px var(--lv1);
 	margin-top: 0;
-	background: rgba(114, 137, 218,.3);
+	//background: rgba(0, 0, 0, .3);
+	background: linear-gradient(rgba(0, 0, 0, .3) 0%, rgba(114, 137, 218, 0.3) 100%);
+	z-index: 1;
+	//background:linear-gradient(rgba(0, 0, 0, 0.6) 100%, rgba(0, 0, 0, 0.6) 100%), 
+	//url("https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/441870/72cd26e14b7fcba028206a06f10548c0d5174cfc.jpg");
+	//background: url(https://steamcdn-a.akamaihd.net/steamcommunity/public/images/items/441870/72cd26e14b7fcba028206a06f10548c0d5174cfc.jpg) rgba(114, 137, 218, .9);
+	//background-color: rgba(114, 137, 218, .1);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 0% 40%;
+	
 }
+
 
 .winButton-iRh8-Z {
 	height: 30px;
@@ -564,17 +650,17 @@ span.name-3YKhmS.da-name{
 }
 
 .wordmark-2iDDfm:after {
-	content: 'v0.3 (Closed alpha release)';
+	content: ' Dimetr';
 	text-shadow: 0 0 12px;
-	font-weight: 400;
-	color: rgba(255, 255, 255, 0.8);
+	font-weight: 900;
+	color: rgba(129, 238, 243, 1);
 	font-size: 16px;
 }
 
 .wordmark-2iDDfm:before {
-	content: 'DISCORD Solyanka by Dimetr ';
+	content: 'DISCORD Solyanka Edition by';
 	text-shadow: 0 0 12px;
-	font-weight: 600;
+	font-weight: 900;
 	color: var(--accent);
 	color: rgba(255, 255, 255, 0.8);
 	font-size: 16px;
@@ -604,6 +690,188 @@ span.name-3YKhmS.da-name{
  *
  */
  
+.theme-dark .standardSidebarView-3F1I7i{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .sidebarRegion-VFTUkN{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .contentRegion-3nDuYy{
+	background-color: rgba(0, 0, 0, 0.3) !important;
+}
+.theme-dark .cardPrimary-1Hv-to{
+	background: 
+		url(https://png.pngtree.com/element_our/md/20180524/md_5b06dec7a8ac8.png),
+		linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, rgba(114, 137, 218,.1) 100%, transparent);
+		
+		//rgba(114, 137, 218,.4);		
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+.theme-dark .cardPrimaryEditable-3KtE4g{
+	background: 
+		url(https://png.pngtree.com/element_our/md/20180524/md_5b06dec7a8ac8.png),
+		linear-gradient(to right, transparent, rgba(114, 137, 218,.3) 0%, rgba(114, 137, 218,.1) 100%, transparent);
+		
+		//rgba(114, 137, 218,.4);		
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
+}
+
+/*
+ *
+ *	ПОИСК
+ *
+ */
+ .theme-dark .container-3ayLPN{
+	 //background-image: linear-gradient(rgba(0, 0, 0, 0.8) 0%, rgb(0, 0, 0) 200%), 
+	 url(https://sitejerk.com/images/abstract-graphics-png-18.png);
+	//background: 
+		url(https://sitejerk.com/images/abstract-graphics-png-18.png),
+		linear-gradient(to right, transparent, rgba(114, 137, 218,.9) 0%, transparent);
+	 background-color: rgba(0, 0, 0, .9) !important;
+	 max-height: 290px;
+	 overflow: auto;
+	background-repeat: no-repeat;
+	background-size: cover;
+	//background-position: left top;
+ }
+.theme-dark .searchResultsWrap-2DKFzt{
+	background-color: rgba(0, 0, 0, .3) !important;
+}
+.theme-dark .searchHeader-1l-wpR{
+	background-color: rgba(0, 0, 0, .2) !important;
+}
+.theme-dark .channelSeparator-1X1FuH .channelName-1QajIf{
+	background-color: rgba(0, 0, 0, 0) !important;
+}
+.theme-dark .focused-2bY0OD{
+	background-color: rgba(0, 0, 0, .2) !important;
+}
+.theme-dark .option-96V44q:after{
+	background: rgba(0, 0, 0, 0) !important;
+}
+
+/*
+ *
+ *	СТРАНИЦА АКТИВНОСТЬ
+ *
+ */
+ 
+.theme-dark .activityFeed-1C0EmJ{
+	 background-color: rgba(0, 0, 0, 0) !important;
+ }
+ /*
+ *
+ *	СТРАНИЦА БИБЛИОТЕКА
+ *
+ */
+ 
+.theme-dark .gameLibrary-TTDw4Y{
+	 background-color: rgba(0, 0, 0, 0) !important;
+ }
+ .theme-dark .header-39GIC8{
+	 background-color: rgba(0, 0, 0, 0) !important;
+ }
+ .theme-dark .container-cMG81i{
+	 background-color: rgba(0, 0, 0, .3) !important;
+ }
+ /*
+ *
+ *	СТРАНИЦА NITRO
+ *
+ */
+ 
+.theme-dark .applicationStore-1pNvnv{
+	 background-color: rgba(0, 0, 0, 0) !important;
+ }
+
+ /*
+ *
+ *	СТРАНИЦА ДРУЗЬЯ
+ *
+ */
+ 
+.theme-dark .container-3gCOGc{
+	 background-color: rgba(0, 0, 0, 0) !important;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
  
  
  
@@ -623,22 +891,33 @@ span.name-3YKhmS.da-name{
 .circleIconButton-jET_ig:hover{
 	background-color: rgba(255,255,255,1) !important;
 }
+.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
+	background: rgba(255,255,255, 0) !important;
+}
+
 
 .theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
-	background: 
-		url(https://cdn.discordapp.com/attachments/400266540567494666/576492661511553070/th.gif),
-		linear-gradient(to right, transparent, rgba(114, 137, 218,.6) 0%, rgba(114, 137, 218,.1) 100%, transparent);
 		
-		//rgba(114, 137, 218,.4);		
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
 	
 	
-	//background-image: linear-gradient(rgba(114, 137, 218,.3) 25%, rgb(0, 0, 0) 250%), url(https://cdn.discordapp.com/attachments/400266540567494666/576492661511553070/th.gif);
-	//linear-gradient(rgba(0, 0, 0, 0) 0%, rgb(0, 0, 0) 140%)
-	//background-image: url(https://cdn.discordapp.com/attachments/400266540567494666/576492661511553070/th.gif);
+	background-image: linear-gradient(rgba(114, 137, 218, .3) 25%, rgb(0, 0, 0, .3) 250%), url(https://cdn.discordapp.com/attachments/400266540567494666/576492661511553070/th.gif);
 
+
+}
+
+.wrapper-1Rf91z .da-scrollerWrap .da-scroller{
+	background: 
+		url(var(--SE-gifheader),
+		linear-gradient(rgba(114, 137, 218, .3) 0%, rgba(0, 0, 0, 0.3) 100%);
+		//linear-gradient(to right, transparent, rgba(114, 137, 218,.8) 0%, rgba(114, 137, 218,.1) 100%, transparent);
+		
+		//rgba(114, 137, 218,.4);		
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: right;
 }
 
 
@@ -830,7 +1109,7 @@ span.name-3YKhmS.da-name{
 #app-mount .wrapper-1Rf91z .da-scrollerWrap .da-scroller > .RANbutton-frame + .da-listItem {
     position: absolute;
     margin-left: -15px !important;
-    height: var(--HSL-size);
+    height: var(--HS	L-size);
     width: auto !important;position: absolute;
     margin-left: -15px !important;
     height: var(--HSL-size);
