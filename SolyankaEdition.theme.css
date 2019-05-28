@@ -910,7 +910,7 @@ span.name-3YKhmS.da-name{
 
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller{
 	background: 
-		url(var(--SE-gifheader),
+		url(var(--SE-gifheader)),
 		linear-gradient(rgba(114, 137, 218, .3) 0%, rgba(0, 0, 0, 0.3) 100%);
 		//linear-gradient(to right, transparent, rgba(114, 137, 218,.8) 0%, rgba(114, 137, 218,.1) 100%, transparent);
 		
