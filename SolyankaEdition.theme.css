@@ -127,7 +127,7 @@
 	 background: 
 	 url(/assets/1ac9193….svg),
 	 linear-gradient(to right, transparent, rgba(114,118,125,.3) 0%, transparent) !important;
- } */
+ } 
 
 .description-3ui3Rf:before {
 	content: 'Статус';
@@ -139,7 +139,7 @@
 .description-3ui3Rf span {
 	display: none;
 }
- 
+ */
  
 .theme-dark .container-1UB9sr, .theme-light .container-1UB9sr{
 	background-image: linear-gradient(to left, transparent, rgba(114, 137, 218, 0) 0%), url(https://cdn.discordapp.com/attachments/400266540567494666/582118563771318282/connection_png_313644.png);
@@ -891,34 +891,34 @@ span.name-3YKhmS.da-name{
 .circleIconButton-jET_ig:hover{
 	background-color: rgba(255,255,255,1) !important;
 }
-.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
-	background: rgba(255,255,255, 0) !important;
-}
 
+.theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
+	background-color: rgba(255,255,255, 0) !important;
+}
 
 .theme-dark .wrapper-1Rf91z, .theme-light .wrapper-1Rf91z{
 		
-	background-repeat: no-repeat;
-	background-size: contain;
-	background-position: right;
-	
-	
-	background-image: linear-gradient(rgba(114, 137, 218, .3) 25%, rgb(0, 0, 0, .3) 250%), url(https://cdn.discordapp.com/attachments/400266540567494666/576492661511553070/th.gif);
+
+	background: 
+		var(--SE-gifheader),
+		linear-gradient(rgba(114, 137, 218, .3) 0%, rgba(0, 0, 0, 0.3) 100%);
+
 
 
 }
 
+
+/*
 .wrapper-1Rf91z .da-scrollerWrap .da-scroller{
 	background: 
-		url(var(--SE-gifheader)),
-		linear-gradient(rgba(114, 137, 218, .3) 0%, rgba(0, 0, 0, 0.3) 100%);
-		//linear-gradient(to right, transparent, rgba(114, 137, 218,.8) 0%, rgba(114, 137, 218,.1) 100%, transparent);
+		var(--SE-gifheader),
+		linear-gradient(rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 100%);
+		//linear-gradient(rgba(114, 137, 218, .3) 0%, rgba(0, 0, 0, .3) 100%);
 		
-		//rgba(114, 137, 218,.4);		
 	background-repeat: no-repeat;
 	background-size: contain;
 	background-position: right;
-}
+}*/
 
 
 :root {
